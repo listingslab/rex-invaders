@@ -1,0 +1,32 @@
+{
+  "name": "rex-invaders",
+  "version": "0.0.1",
+  "description": "Space Invaders made with React and stuff...",
+  "main": "space-invaders.js",
+  "scripts": {
+    "less": "lessc src/main.less space-invaders.css",
+    "start": "npm run less && webpack-dev-server --progress --colors --inline --hot",
+    "test": "tap test/*.test.js"
+  },
+  "author": "leoncoto@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "deep-freeze": "0.0.1",
+    "less": "^2.5.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.1",
+    "normalize.css": "^3.0.3",
+    "ramda": "^0.18.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4"
+  }
+}
