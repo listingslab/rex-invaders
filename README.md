@@ -1,8 +1,7 @@
 
 # Rex Invaders
 
-> Rexlabs Branded Space Invaders made with React and stuff
-
+> Rexlabs Branded Space Invaders made with React and stuff  
 Forked from [grancalavera/react-spaceinvaders](https://github.com/grancalavera/react-spaceinvaders)
 
 ## grancalavera's notes
@@ -40,4 +39,3 @@ Forked from [grancalavera/react-spaceinvaders](https://github.com/grancalavera/r
 - http://jxnblk.com/gravitons
 - https://github.com/chantastic/minions.css/tree/master
 - move id generation to action creators, see https://github.com/gaearon/redux-devtools#gotchas
-

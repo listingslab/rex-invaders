@@ -1,0 +1,85 @@
+@width: 64px;
+@height: @width;
+@rows: 7;
+@cols: 13;
+@bulletWidth: @width / 16;
+@bulletHeight: @height / 4;
+@green: #00ff00;
+@dark-gray:#2a2a2a;
+
+body, html {
+  color: white;
+  background-color: @dark-gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.stage {
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sprite {
+  width: @width;
+  height: @height;
+  background-image: url('/assets/enemies-and-hero.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.enemy.one {
+  background-position-y: 0;
+}
+
+.enemy.two {
+  background-position-y: -@height;
+}
+
+.enemy.three {
+  background-position-y: -@height * 2;
+}
+
+.flip {
+  background-position-x: -@width;
+}
+
+.hero {
+  background-position-y: -@height * 3;
+}
+
+.explosion {
+  background-position: -@width -@height * 3;
+}
+
+.bullet {
+  position: absolute;
+  background-color: @green;
+  width: @bulletWidth;
+  height: @bulletHeight;
+}
+
+.debug {
+  .enemy.selected {
+    border: 1px solid red;
+  }
+
+  .enemy.selected.didMove {
+    border: 1px solid red;
+  }
+  .enemy.selected.didAdvance {
+    border: 1px solid red;
+  }
+
+  .enemy.didMove {
+    border: 1px solid green;
+  }
+
+  .enemy.didAdvance {
+    border: 1px solid yellow;
+  }
+}
