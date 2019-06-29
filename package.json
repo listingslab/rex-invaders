@@ -1,6 +1,6 @@
 {
   "name": "rex-invaders",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Space Invaders made with React and stuff...",
   "main": "space-invaders.js",
   "scripts": {
