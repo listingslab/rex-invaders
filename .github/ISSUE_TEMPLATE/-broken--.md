@@ -15,4 +15,3 @@ assignees: 'listingslab'
 > Then I should see ...
 
 ### Actual Behaviour
-

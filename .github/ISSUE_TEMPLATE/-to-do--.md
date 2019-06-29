@@ -6,8 +6,7 @@ labels: '[TO DO]'
 assignees: ''
 ---
 
-## Are you volunteering to do this?
-
-[x] Yes
+## Are you volunteering?
+[ ] Yes
 [ ] No
-[ ] Maybe
+[x] Maybe

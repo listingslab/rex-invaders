@@ -6,10 +6,11 @@ labels: '[DOCS]'
 assignees: 'listingslab'
 ---
 
-## I dont't know how to...
+### I dont't know how to...
 
 ### And it blocks me from doing...
 
-### Ping for review?
+## Ping for review?
 
-[X] yes `email@domain.com` || `<github-username>`
+Please let us know if you are able to review the document for us
+[x] yes `email@domain.com` || `<github-username>`
