@@ -1,13 +1,13 @@
 ---
 name: "[TO DO] "
-about: Describe this issue template's purpose here.
+about: What needs doing?
 title: "[TO DO] "
-labels: ''
+labels: '[TO DO]'
 assignees: ''
-
 ---
 
-## List
+## Are you volunteering to do this?
+
 [x] Yes
 [ ] No
 [ ] Maybe
