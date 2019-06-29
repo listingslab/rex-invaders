@@ -1,7 +1,7 @@
 {
   "name": "rex-invaders",
-  "version": "0.0.2",
-  "description": "Space Invaders made with React and stuff...",
+  "version": "0.0.3",
+  "description": "Rexlabs Branded Space Invaders made with React and stuff forked from grancalavera/react-spaceinvaders",
   "main": "space-invaders.js",
   "scripts": {
     "less": "lessc src/main.less space-invaders.css",
