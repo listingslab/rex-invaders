@@ -1,6 +1,8 @@
 
 # Rex Invaders
 
+![Space Invaders](https://firebasestorage.googleapis.com/v0/b/rex-invaders.appspot.com/o/220px-Space_Invaders_flyer%2C_1978.jpg?alt=media&token=39260e12-ee75-4f71-aac5-05b7b7beaf34)
+
 > Rexlabs Branded Space Invaders made with React and stuff  
 Forked from [grancalavera/react-spaceinvaders](https://github.com/grancalavera/react-spaceinvaders)
 
