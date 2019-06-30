@@ -14,7 +14,7 @@ import {collisions} from './collisions';
 import {update} from './actions';
 import {Stage} from './stage.jsx';
 
-console.log (`${packageJSON.name} ${packageJSON.version} (${process.env.REACT_APP_ENV})`);
+console.log (`${packageJSON.name} ${packageJSON.version}`);
 
 const spaceInvaders = combineReducers({
   enemiesGrid,

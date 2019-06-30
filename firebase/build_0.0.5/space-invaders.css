@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+.stage {
+  position: relative;
+  margin: 0 auto;
+}
+.sprite {
+  width: 64px;
+  height: 64px;
+  background-image: url('/png/enemies-and-hero.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.enemy.one {
+  background-position-y: 0;
+}
+.enemy.two {
+  background-position-y: -64px;
+}
+.enemy.three {
+  background-position-y: -128px;
+}
+.flip {
+  background-position-x: -64px;
+}
+.hero {
+  background-position-y: -192px;
+}
+.explosion {
+  background-position: -64px -192px;
+}
+.bullet {
+  position: absolute;
+  background-color: #333;
+  width: 4px;
+  height: 16px;
+}
+.debug .enemy.selected {
+  border: 1px solid red;
+}
+.debug .enemy.selected.didMove {
+  border: 1px solid red;
+}
+.debug .enemy.selected.didAdvance {
+  border: 1px solid red;
+}
+.debug .enemy.didMove {
+  border: 1px solid green;
+}
+.debug .enemy.didAdvance {
+  border: 1px solid yellow;
+}
