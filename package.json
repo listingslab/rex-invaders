@@ -1,6 +1,6 @@
 {
   "name": "rex-invaders",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Rexlabs Branded Space Invaders made with React and stuff forked from grancalavera/react-spaceinvaders",
   "main": "space-invaders.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "deep-freeze": "0.0.1",
+    "json-loader": "^0.5.7",
     "less": "^2.5.3",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"

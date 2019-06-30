@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html class="debug">
+<html class="no-debug">
   <head>
     <title>Rex Invaders</title>
-    
     <meta name="Rex Invaders">
     <meta itemprop="name" content="Rex Invaders">
     <meta name="description" content="Rexlabs Branded Space Invaders made with React and stuff">
     <meta name="keywords" content="game, react, space invaders, rexlabs">
-    
     <meta property="og:site_name" content="Rex Invaders">
     <meta property="og:title" content="Rex Invaders">
     <meta property="og:type" content="https://rex-invaders.web.app">
@@ -19,26 +17,36 @@
     <meta name="twitter:description" content="Rexlabs Branded Space Invaders made with React and stuff">
     <meta name="twitter:creator" content="rexlabs">
     <meta name="twitter:image" content="/png/stage.png">
-
     <meta name="geo.region" content="AU-QLD" />
     <meta name="geo.placename" content="Fortitude Valley" />
     <meta name="geo.position" content="-27.211579;153.107658" />
     <meta name="ICBM" content="-27.211579, 153.107658" />
-
     <meta name="theme-color" content="black" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="HandheldFriendly" content="true"/>
-
     <link rel="apple-touch-icon" href="/png/icon.png">
     <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" type="text/css" href="/space-invaders.css">
-
+    <style>
+      .game {
+        /* border: 1px solid black; */
+        overflow: hidden;
+        max-width: 850px;
+        margin: auto;
+        text-align: center;
+      }
+      .game h1 {
+        padding: 0;
+        margin: 0;
+        margin-top: 16px;
+      }
+    </style>
   </head>
-
   <body>
-    <div id="stage"></div>
-
+    <div class="game">
+        <h1>Rex Invaders</h1>
+        <div id="stage"></div>
+    </div>
     <script type="text/javascript" src="/space-invaders.js"></script>
-
   </body>
 </html>

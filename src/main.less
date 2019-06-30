@@ -4,12 +4,12 @@
 @cols: 13;
 @bulletWidth: @width / 16;
 @bulletHeight: @height / 4;
-@green: #00ff00;
+@green: #333;
 @dark-gray:#2a2a2a;
 
 body, html {
-  color: white;
-  background-color: @dark-gray;
+  // color: white;
+  // background-color: @dark-gray;
 }
 
 * {
@@ -17,7 +17,7 @@ body, html {
 }
 
 .stage {
-  background-color: red;
+  // background-color:rgba(0,0,0,0.25);
   position: relative;
   margin: 0 auto;
 }
@@ -25,7 +25,7 @@ body, html {
 .sprite {
   width: @width;
   height: @height;
-  background-image: url('/public/png/enemies-and-hero.png');
+  background-image: url('/png/enemies-and-hero.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
