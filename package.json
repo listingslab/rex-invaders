@@ -1,6 +1,6 @@
 {
   "name": "rex-invaders",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Rexlabs Branded Space Invaders made with React and stuff forked from grancalavera/react-spaceinvaders",
   "main": "space-invaders.js",
   "scripts": {
