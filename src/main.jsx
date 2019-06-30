@@ -10,14 +10,16 @@ import {controls} from './controls'
 import {gameLoop} from './game-loop'
 import {collisions} from './collisions'
 import {update} from './actions'
-import {Stage} from './stage.jsx'
+import {Stage} from './stage.jsx';
+
+console.log ('Rex Invaders')
 
 const spaceInvaders = combineReducers({
-  enemiesGrid
-, enemyExplosions
-, hero
-, heroBullets
-})
+  enemiesGrid,
+  enemyExplosions,
+  hero,
+  heroBullets,
+});
 
 const store = createStore(spaceInvaders)
 

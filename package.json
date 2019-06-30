@@ -1,6 +1,6 @@
 {
   "name": "rex-invaders",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Rexlabs Branded Space Invaders made with React and stuff forked from grancalavera/react-spaceinvaders",
   "main": "space-invaders.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "start": "npm run less && webpack-dev-server --progress --colors --inline --hot",
     "test": "tap test/*.test.js"
   },
-  "author": "leoncoto@gmail.com",
+  "contributors": [
+    "leoncoto <leoncoto@gmail.com> (https://github.com/grancalavera/)",
+    "Chris Dorward <listingslab@gmail.com> (https://github.com/listinglab)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.3.13",
