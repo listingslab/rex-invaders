@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 .stage {
-  background-color: blue;
+  background-color: red;
   position: relative;
   margin: 0 auto;
 }
